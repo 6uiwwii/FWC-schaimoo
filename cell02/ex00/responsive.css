@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+td {
+    text-align: center;
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.first-cell {
+    background-color: #143684;
+    color: white;
+}
+
+.second-cell {
+    background-color: #ad1d2e;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    tr {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    td {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+        font-size: 5vw;
+    }
+}
