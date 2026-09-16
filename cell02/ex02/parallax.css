@@ -1,0 +1,28 @@
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg1 {
+    background-image: url('https://pbs.twimg.com/media/HQPVnWgaYAAS32Q?format=jpg&name=large');
+}
+
+.bg2 {
+    background-image: url('https://pbs.twimg.com/media/HPmPzgobwAEKUWD?format=jpg&name=large');
+}
+
+.text {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content-block {
+    height: 300px;
+    background-color: #454542;
+}
