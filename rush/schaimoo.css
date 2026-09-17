@@ -8,17 +8,8 @@ section {
 }
 
 .profile-img {
-    width: 340px;              /* ขยายขนาดความกว้าง */
-    height: 340px;             /* ขยายขนาดความสูงเป็นสี่เหลี่ยมจัตุรัส */
-    object-fit: cover;         /* ตัดครอบภาพให้พอดีพื้นที่ ไม่ยืดหรือเสียสเกล */
-    border-radius: 16px;        /* มนมุมเล็กน้อย (เปลี่ยนเป็น 0px หากต้องการสี่เหลี่ยมมุมฉาก) */
-    border: 4px solid #2c3e50;  /* กรอบรูป */
+    width: 100%;              
+    height: auto;            
+    object-fit: cover;          
 }
 
-/* ปรับขนาดย่อลงอัตโนมัติเมื่อดูผ่านหน้าจอมือถือ */
-@media (max-width: 768px) {
-    .profile-img {
-        width: 250px;
-        height: 250px;
-    }
-}
