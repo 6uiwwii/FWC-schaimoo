@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.nav-link {
+    margin-left: 15px;
+}
+
+.section {
+    padding: 100px 0 80px;
+}
+
+.card {
+    height: 100%;
+    border: none;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+    .profile-img {
+        height: 250px;
+    }
+}
